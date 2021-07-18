@@ -36,15 +36,18 @@
 
             </div> avatar foto teste--> 
 
+            <!-- container botoes -->
             <div class="btnbox">
                 <div id="btn">
                     
                 </div>
-                <button type="button" class="alt">login</button>
-                <button type="button" class="alt">inscrever</button>
+                <button type="button" class="alt" onclick="login()">login</button>
+                <button type="button" class="alt" onclick="registrar()">inscrever</button>
             </div>
+             
+            <!-- fieldset container -->
+            <fieldset id="fset-container">
 
-            
                 <form id="login-container">
 
                     <div>
@@ -56,7 +59,7 @@
                         <label for="pswd">Senha :</label>
                         
                         <input class="hvr" type="password" name="pswd" id="pswd" placeholder="********" />
-                        <input type="checkbox" name="remember" id="remember"><span>lembrar senha</span>
+                        <input type="checkbox" name="remember" id="lembra" class="chkbox"><span>lembrar senha</span>
                         <button type="submit" class="btn-submit">login</button>
                         <button type="reset" class="btn-reset">Limpar</button>
                     </div>
@@ -79,12 +82,13 @@
                         <label for="pswd">Senha :</label>
                         
                         <input class="hvr" type="password" name="pswd" id="pswd" placeholder="********" />
-                        <input type="checkbox" name="remember" id="remember"><span>concordo com os termos de servico</span>
+                        <input type="checkbox" name="remember" id="registra" class="chkbox"><span>Concordo com os termos de servico</span>
                         <button type="submit" class="btn-submit">Registrar</button>
                         <button type="reset" class="btn-reset">Limpar</button>
                     </div>
                     
                 </form>
+            </fieldset>
             
 
 
