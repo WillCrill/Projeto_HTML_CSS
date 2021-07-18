@@ -87,15 +87,11 @@ fieldset{
     border: none; 
 }
 
-/* estilo placeholder forms */
-::placeholder{
-    color: mediumturquoise;
-}
 
 /* container geral */
 .container{
 
-    display: flex;
+    
 
     width:380px;
     height: 480px;
@@ -104,23 +100,39 @@ fieldset{
     background: rgb(160, 77, 77);
     padding: 5px;
     border-radius: 20px;
+    overflow: hidden;
 
 }
 
-/* hover campos input */
+#login-container{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0,5s;
+    margin-top: -45px;
+    left: 50px;
 
-.hvr:hover{
-    background-color: red;
 }
+
+#registrar-container{
+   
+
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0,5s;
+    margin-top: -90px;
+    left: 400px;
+
+}
+
+
 
 /* botao login/inscrever */
 
 .btnbox{
 
-    display: flex;
-    justify-content: center;
-   
-
+    
     width: 220px;
     height: 35px;
     margin: 30px auto;
@@ -132,8 +144,6 @@ fieldset{
 }
 
 .alt{
-    display: flex;
-    justify-content: center;
 
     padding: 10px 30px;
 	cursor: pointer;
@@ -143,36 +153,21 @@ fieldset{
 	position: relative;
 }
 
-#btn{
+#btn-bg{
     top: 0;
     left: 0;
     position: absolute;
-    width: 110px;
+    width: 50%;
     height: 100%;
     background: linear-gradient(to right, #ff105f,#ffad06);
-    border-radius: 30px;
+    border-radius: 20px;
     transition: 0.5s;
-
+   
+    
 
 }
 
-#login-container{
-top: 180px;
-position: absolute;
-width: 280px;
-transition: 0,5s;
-
-}
-
-
-#registrar-container{
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: 0,5s;
-    
-    }
-    
+  
 /*estilo input  */
 
 input[type=text],
@@ -188,22 +183,20 @@ input[type=password]{
 	background: transparent;
 }
 
-#login-container{
+/* hover campos input */
 
-    margin-top: -45px;
-    left: 50px;
-
+.hvr:hover{
+    background-color: rgba(172, 21, 21, 0.4);
+    transition: 0.3s;
 }
 
-#registrar-container{
-
-    margin-top: -90px;
- 
-    left: 450px;
-
+/* estilo placeholder input forms */
+::placeholder{
+    color: mediumturquoise;
 }
 
-/* mudar a organizaçao com display flex e grid aqui */
+
+/* estilo botoes */
 
 .btn-submit{
     width: 85%;
@@ -225,11 +218,13 @@ input[type=password]{
 	display: block;
 	margin: 10px;;
 	background: linear-gradient(to right, #ff105f,#ffad06);
-	border: 0;
+	border: none;
 	outline: none;
 	border-radius: 30px;
 
 }
+
+/* checkbox de lembrar a senha e concordar com termos */
 
 .chkbox{
 
@@ -252,6 +247,7 @@ input[type=password]{
 .chkbox:hover{
 
     background-color: rgb(99, 3, 155);
+    transition: 0.3s;
 
 
 }

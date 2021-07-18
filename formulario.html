@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="shortcut icon" href="./img/favicon.png">
     <title>Login/Cadastro</title>
 </head>
+
 <body>
     <header>
         <!-- Header -->
@@ -32,20 +34,24 @@
     </header>
     <main>
         <div class="container">
-           
+
             <!--  <div>
 
-            </div> avatar foto teste--> 
+            </div> avatar foto teste-->
 
             <!-- container botoes -->
             <div class="btnbox">
-                <div id="btn">
-                    
+                <!-- div para o fundo de transiçao btn-bg -->
+                <div id="btn-bg">
+                    <!-- sem nada mesmo -->
                 </div>
-                <button type="button" class="alt" onclick="login()">login</button>
-                <button type="button" class="alt" onclick="registrar()">inscrever</button>
+
+
+                <button type="button" class="alt" id="login"  onclick="login()" >login</button>
+
+                <button type="button" class="alt" id="signup" onclick="register()" >inscrever</button>
             </div>
-             
+
             <!-- fieldset container -->
             <fieldset id="fset-container">
 
@@ -58,13 +64,13 @@
 
                     <div>
                         <label for="pswd">Senha :</label>
-                        
+
                         <input class="hvr" type="password" name="pswd" id="pswd" placeholder="********" />
                         <input type="checkbox" name="remember" id="lembra" class="chkbox"><span>lembrar senha</span>
                         <button type="submit" class="btn-submit">login</button>
                         <button type="reset" class="btn-reset">Limpar</button>
                     </div>
-                    
+
                 </form>
 
                 <form id="registrar-container">
@@ -81,21 +87,43 @@
 
                     <div>
                         <label for="pswd">Senha :</label>
-                        
+
                         <input class="hvr" type="password" name="pswd" id="pswd" placeholder="********" />
-                        <input type="checkbox" name="remember" id="registra" class="chkbox"><span>Concordo com os termos de servico</span>
+                        <input type="checkbox" name="remember" id="registra" class="chkbox"><span>Concordo com os termos
+                            de servico</span>
                         <button type="submit" class="btn-submit">Registrar</button>
                         <button type="reset" class="btn-reset">Limpar</button>
                     </div>
-                    
+
                 </form>
             </fieldset>
-            
+
 
 
 
         </div>
+        <script>
+
+            var x = document.getElementById("login-container")
+            var y = document.getElementById("registrar-container")
+            var z = document.getElementById("btn-bg")
+
+            function register(){
+                x.style.left = "-400px"
+                y.style.left = "60px"
+                z.style.left = "50px"
+                
+            }
+            function login(){
+                x.style.left = "50px"
+                y.style.left = "450px"
+                z.style.left = "0px"
+                
+            }
+
+        </script>
     </main>
-    
+
 </body>
+
 </html>
