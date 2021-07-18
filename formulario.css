@@ -1,3 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/banner.png);
+    background-size: cover;
+    
+
+}
+
+
+
 /* Header */
 .header {
     display: flex;
@@ -8,18 +26,20 @@
 .navbar {
     width: 80%;
     height: 50px;
-    background-color: black; 
+    background-image:linear-gradient(45deg, rgb(105, 20, 20),rgb(31, 14, 14)); 
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
     right: -73%;
     margin-top: 5px;
-    padding: 20px;
+    padding: 35px;
+    border-radius: 10px;
 }
 
 .navbar:hover {
     animation: navbar_animation 1s ease-out forwards;
+    
 }
 
 @keyframes navbar_animation{
@@ -28,7 +48,7 @@
 }
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: rgb(179, 15, 143);
     font-family: 'Fredoka One', cursive;;
     font-size: 20px;
     padding: 10px;
@@ -36,19 +56,21 @@
 }
 
 .navbar a:hover {
-    background-color: yellow;
-    color: black;
+    background-color: rgba(209, 149, 37, 0.1);
+    color: rgb(231, 210, 210);
     border-radius: 20px;
     transform: scale(1.2);
+    
 }
 
 /* Logo */
 .logo h3 {
     font-family: 'Fredoka One', cursive;
     padding: 7px;
-    border-top: solid 3px black;
+    border-top: solid 3px rgba(82, 20, 20,0.80);
     margin-top: -5px;
     text-align: center;
+    color: rgb(138, 116, 158);
 }
 .logo_img img {
     width: 110px;
@@ -56,3 +78,95 @@
 }
 
 /* header */
+
+/* container do form */
+
+.container{
+
+    
+
+    width:380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(160, 77, 77);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+/* botao login/inscrever */
+
+.btnbox{
+    
+    width: 220px;
+    margin: 35% auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgb(255, 0, 0);
+    border-radius: 20px;
+
+
+}
+
+.alt{
+    padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+    border:none;
+	outline: none;
+	position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#a8910c,#096bbb);
+    border-radius: 30px;
+    transition: 0.5s;
+
+
+}
+
+#login-container{
+top: 180px;
+position: absolute;
+width: 280px;
+transition: 0,5s;
+
+}
+
+
+#registrar-container{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0,5s;
+    
+    }
+    
+
+input[type=text],
+input[type=email],
+input[type=password]{
+
+    width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border: none;
+	border-bottom: 1px solid rgb(167, 9, 9);
+	outline: none;
+	background: transparent;
+}
+
+#login-container{
+    left: 50px;
+
+}
+
+#registrar-container{
+left: 450px;
+
+}
