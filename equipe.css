@@ -56,3 +56,30 @@
 }
 
 /* header */
+
+/* main */
+body{
+    font-weight:normal;
+    font-family: 'Fredoka One', cursive;
+    background-color: #000000;
+    color:white;
+}
+.picture{
+    object-fit: cover;
+    width: 15%;
+    height: 130px;
+}
+.box{
+    display: flex;
+}
+h2{
+    font-weight: normal;
+    margin-left: 5px;
+    width: 100px;
+}
+/* responsivo */
+@media (max-width: 400px) {
+    .picture{
+        width: 25%;
+    }
+}
