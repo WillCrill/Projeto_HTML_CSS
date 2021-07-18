@@ -133,7 +133,7 @@ fieldset{
 .btnbox{
 
     
-    width: 220px;
+    width: 200px;
     height: 35px;
     margin: 30px auto;
     position: relative;
@@ -144,8 +144,8 @@ fieldset{
 }
 
 .alt{
-
-    padding: 10px 30px;
+    margin-left: 30px;
+    padding: 10px;
 	cursor: pointer;
 	background: transparent;
     border:none;
@@ -154,6 +154,7 @@ fieldset{
 }
 
 #btn-bg{
+
     top: 0;
     left: 0;
     position: absolute;
