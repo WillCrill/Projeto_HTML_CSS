@@ -24,17 +24,7 @@ body {
   background-color: black;
   border-bottom: solid 5px green;
   border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: fixed;
   right: 0%;
-  padding: 20px;
-  
-}
-
-.navbar a {
   text-decoration: none;
   color: white;
   font-family: "Fredoka One", cursive;
@@ -53,8 +43,9 @@ body {
 /* Logo */
 
 .logo img {
-  width: 110px;
-  position: absolute;
+  width: 230px;
+ 
+}
 
 /* header */
 
