@@ -120,18 +120,6 @@ canvas {
   padding-left: 10px;
 }
 
-<<<<<<< HEAD
-.parallax {
-  background-image: url("./banner.png");
-  min-height: 600px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0;
-  z-index: 2;
-}
 
 /* main */
 main {
@@ -175,17 +163,3 @@ footer {
   color: #555;
   text-align: center;
 }
-=======
-
-.parallax {
-    background-image: url("./banner.png");
-    min-height: 600px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0;
-    z-index: 2;
-  }
->>>>>>> 2582c811f461843b27f5c73c8086101ac94d28bb
