@@ -177,7 +177,7 @@ input[type=password]{
 
     width: 100%;
 	padding: 10px 0;
-	margin: 5px 0;
+	margin: 11px 0;
 	border: none;
 	border-bottom: 1px solid rgb(122, 2, 2);
     border-radius: 10px;
@@ -222,9 +222,16 @@ input[type=password]{
 	background: linear-gradient(90deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
 	border: none;
 	outline: none;
-	border-radius: 30px;
+	border-radius: 20px;
 
 }
+
+#lgin-btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
 
 /* checkbox de lembrar a senha e concordar com termos */
 
