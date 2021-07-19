@@ -20,6 +20,9 @@ body {
 /* navbar */
 .navbar {
   width: 80%;
+  height: 30px;
+  background-color: black;
+  border-bottom: solid 5px green;
   border-bottom-left-radius: 15px;
   right: 0%;
   text-decoration: none;
@@ -41,9 +44,6 @@ body {
 
 .logo img {
   width: 230px;
-  border-bottom: solid 5px rgb(0, 200, 0);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
  
 }
 
