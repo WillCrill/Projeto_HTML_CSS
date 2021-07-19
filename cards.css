@@ -25,7 +25,8 @@
 .card {
   float: center;
   padding: 2rem 1.7rem;
-  width: 30%;
+  max-width: 30%;
+  min-width: 300px;
 }
 
 .card h1 {
