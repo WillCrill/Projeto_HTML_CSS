@@ -96,8 +96,8 @@ fieldset{
     width:380px;
     height: 480px;
     position: relative;
-    margin: 6% auto;
-    background: rgb(160, 77, 77);
+    margin: 5% auto;
+    background: rgba(216, 216, 216, 0.6);
     padding: 5px;
     border-radius: 20px;
     overflow: hidden;
@@ -137,7 +137,7 @@ fieldset{
     height: 35px;
     margin: 30px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px rgb(255, 0, 0);
+    box-shadow: 0 0 20px 9px rgba(172, 9, 109, 0.9);
     border-radius: 20px;
 
 
@@ -160,7 +160,7 @@ fieldset{
     position: absolute;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, #ff105f,#ffad06);
+    background: linear-gradient(45deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
     border-radius: 20px;
     transition: 0.5s;
    
@@ -179,7 +179,8 @@ input[type=password]{
 	padding: 10px 0;
 	margin: 5px 0;
 	border: none;
-	border-bottom: 1px solid rgb(167, 9, 9);
+	border-bottom: 1px solid rgb(122, 2, 2);
+    border-radius: 10px;
 	outline: none;
 	background: transparent;
 }
@@ -193,7 +194,7 @@ input[type=password]{
 
 /* estilo placeholder input forms */
 ::placeholder{
-    color: mediumturquoise;
+    color: rgba(151, 24, 56, 0.9);
 }
 
 
@@ -205,7 +206,7 @@ input[type=password]{
 	cursor: pointer;
 	display: block;
 	margin: 10px;
-	background: linear-gradient(to right, #ff105f,#ffad06);
+	background: linear-gradient(135deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
 	border: 0;
 	outline: none;
 	border-radius: 30px;
@@ -218,7 +219,7 @@ input[type=password]{
 	cursor: pointer;
 	display: block;
 	margin: 10px;;
-	background: linear-gradient(to right, #ff105f,#ffad06);
+	background: linear-gradient(90deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
 	border: none;
 	outline: none;
 	border-radius: 30px;
@@ -232,7 +233,7 @@ input[type=password]{
     appearance: none;
     background-color: rgba(56, 8, 8, 0.5);
 	border: 1px solid rgb(131, 19, 19);
-	border-radius: 3px;
+	border-radius: 5px;
 	/* display: flex;
     flex-wrap:wrap; */
 	position: relative;
@@ -262,7 +263,7 @@ input[type=password]{
     width: 410px;
 
 	position: absolute;
-	top: 0px;
+	top: 2px;
 	left: 0px;
 	color: rgb(252, 0, 210);
 
@@ -271,15 +272,15 @@ input[type=password]{
 #registra:checked:after{
 
     content: '!R.T.M!';
-	font-size: 15px;
+	font-size: 14px;
     
     height: 25px;
     width: 25px;
 
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	color: rgb(163, 19, 19);
+	top: 2px;
+	left: 2px;
+	color: rgb(255, 0, 0);
 
 
 }
@@ -288,7 +289,7 @@ span{
     display: flex;
     justify-self:center;
 	color: rgb(173, 29, 29);
-	font-size: 12px;
+	font-size: 15px;
 	
 	
 }
