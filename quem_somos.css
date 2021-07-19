@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; /* especifica o comportamento de rolagem */
+}
+
 body{
     font-family: 'Fredoka One';
     font-style: normal;
@@ -643,3 +647,49 @@ body{
     height: 100vh;
   }
   
+  /* conteúdo */
+  p.texto{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    padding: 0 150px;
+    text-align: justify;
+  }
+  
+  h2{
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    color: green;
+  }
+
+  h2:hover {
+    color: yellow;
+    transform: rotate(-360deg); 
+    transition: all 0.2s ease-in-out; 
+  }
+
+  li{
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
+    margin-left: 126px;
+    margin-top: 20px;
+  }
+  
+  .span1{
+    color: red;
+  }
+
+  .span2{
+    color: blue;
+  }
+
+  .span3{
+    color: violet;
+  }
+
+  .span4{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
