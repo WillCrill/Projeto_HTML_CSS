@@ -1,119 +1,148 @@
 html {
-    scroll-behavior: smooth; /* especifica o comportamento de rolagem */
-  }
-  
-  body{
-      font-family: 'Fredoka One';
-      font-style: normal;
-      font-display: swap;
-      color: white;
-      background-color: black;
-      text-align: center;
-  }
+  scroll-behavior: smooth; /* especifica o comportamento de rolagem */
+}
 
-  
-  /* Header */
+body {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-display: swap;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+/* Header */
 .pageheader {
-    display: flex;
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-  }
-  
-  /* navbar */
-  .navbar {
-    width: 80%;
-    height: 50px;
-    border-bottom: solid 5px rgb(0, 200, 0);
-    height: 30px;
-    background-color: black;
-    border-bottom: solid 5px green;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    right: 0%;
-    padding: 20px;
-    
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: white;
-    font-family: "Fredoka One", cursive;
-    font-size: 20px;
-    padding: 10px;
-    margin: 0px 50px;
-  }
-  
-  .navbar a:hover {
-    background-color: rgb(0, 200, 0);
-    color: white;
-    transform: scale(1.5);
-    transition: 0.5s;
-  }
-  
-  /* Logo */
-  
-  .logo img {
-    width: 110px;
-    border-bottom: solid 5px rgb(0, 200, 0);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-   
-    margin-left: 50px;
-  }
-  
-  /* header */
-    /* header */
-  
-    
-     
-    /* conteúdo */
-    p.texto{
-      font-family: "Open Sans", sans-serif;
-      margin-top: 20px;
-      padding: 0 150px;
-      text-align: justify;
-    }
-    
-    h2{
-      font-family: "Open Sans", sans-serif;
-      letter-spacing: 3px;
-      margin-top: 50px;
-      color: green;
-    }
-  
-    h2:hover {
-      color: green;
-      transform: rotate(-360deg); 
-      transition: all 0.2s ease-in-out; 
-    }
-  
-    li{
-      font-family: "Open Sans", sans-serif;
-      text-align: justify;
-      margin-left: 126px;
-      margin-top: 20px;
-    }
-    
-    .span1{
-      color: red;
-    }
-  
-    .span2{
-      color: blue;
-    }
-  
-    .span3{
-      color: violet;
-    }
-  
-    .span4{
-      background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+/* navbar */
+.navbar {
+  width: 80%;
+  height: 50px;
+  border-bottom: solid 5px rgb(0, 200, 0);
+  height: 30px;
+  background-color: black;
+  border-bottom: solid 5px green;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: 0%;
+  padding: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px 50px;
+}
+
+.navbar a:hover {
+  background-color: rgb(0, 200, 0);
+  color: white;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+/* Logo */
+
+.logo img {
+  width: 110px;
+  border-bottom: solid 5px rgb(0, 200, 0);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  margin-left: 50px;
+}
+
+/* header */
+/* header */
+
+/* conteúdo */
+p.texto {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  padding: 0 150px;
+  text-align: justify;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  margin-top: 50px;
+  color: green;
+}
+
+h2:hover {
+  color: green;
+  transform: rotate(-360deg);
+  transition: all 0.2s ease-in-out;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  margin-left: 126px;
+  margin-top: 20px;
+}
+
+.span1 {
+  color: red;
+}
+
+.span2 {
+  color: blue;
+}
+
+.span3 {
+  color: violet;
+}
+
+.span4 {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Footer */
+footer {
+  font-family: "Fredoka One", cursive;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
+}
+
+.footer img {
+  height: 30px;
+  margin-left: 50px;
+}
+
+.icones {
+  /* display: inline-flex; */
+  padding: 25px;
+}
+
+.copyright {
+  color: #555;
+  text-align: center;
+}
