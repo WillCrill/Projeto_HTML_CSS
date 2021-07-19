@@ -10,9 +10,11 @@ body{
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/banner.png);
     background-size: cover;
+    font-family: 'Fredoka One', cursive;
     
 
 }
+
 
 
 
@@ -81,6 +83,12 @@ body{
 
 /* container do form */
 
+fieldset{
+    border: none; 
+}
+
+
+/* container geral */
 .container{
 
     
@@ -88,28 +96,56 @@ body{
     width:380px;
     height: 480px;
     position: relative;
-    margin: 6% auto;
-    background: rgb(160, 77, 77);
+    margin: 5% auto;
+    background: rgba(216, 216, 216, 0.6);
     padding: 5px;
     border-radius: 20px;
+    overflow: hidden;
 
 }
+
+#login-container{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0,5s;
+    margin-top: -45px;
+    left: 50px;
+
+}
+
+#registrar-container{
+   
+
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0,5s;
+    margin-top: -90px;
+    left: 400px;
+
+}
+
+
 
 /* botao login/inscrever */
 
 .btnbox{
+
     
-    width: 220px;
-    margin: 35% auto;
+    width: 200px;
+    height: 35px;
+    margin: 30px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px rgb(255, 0, 0);
+    box-shadow: 0 0 20px 9px rgba(172, 9, 109, 0.9);
     border-radius: 20px;
 
 
 }
 
 .alt{
-    padding: 10px 30px;
+    margin-left: 30px;
+    padding: 10px;
 	cursor: pointer;
 	background: transparent;
     border:none;
@@ -117,36 +153,23 @@ body{
 	position: relative;
 }
 
-#btn{
+#btn-bg{
+
     top: 0;
     left: 0;
     position: absolute;
-    width: 110px;
+    width: 50%;
     height: 100%;
-    background: linear-gradient(to right,#a8910c,#096bbb);
-    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
+    border-radius: 20px;
     transition: 0.5s;
-
+   
+    
 
 }
 
-#login-container{
-top: 180px;
-position: absolute;
-width: 280px;
-transition: 0,5s;
-
-}
-
-
-#registrar-container{
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: 0,5s;
-    
-    }
-    
+  
+/*estilo input  */
 
 input[type=text],
 input[type=email],
@@ -154,19 +177,126 @@ input[type=password]{
 
     width: 100%;
 	padding: 10px 0;
-	margin: 5px 0;
+	margin: 11px 0;
 	border: none;
-	border-bottom: 1px solid rgb(167, 9, 9);
+	border-bottom: 1px solid rgb(122, 2, 2);
+    border-radius: 10px;
 	outline: none;
 	background: transparent;
 }
 
-#login-container{
-    left: 50px;
+/* hover campos input */
+
+.hvr:hover{
+    background-color: rgba(172, 21, 21, 0.4);
+    transition: 0.3s;
+}
+
+/* estilo placeholder input forms */
+::placeholder{
+    color: rgba(151, 24, 56, 0.9);
+}
+
+
+/* estilo botoes */
+
+.btn-submit{
+    width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 10px;
+	background: linear-gradient(135deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.btn-reset{
+
+    width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 10px;;
+	background: linear-gradient(90deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
+	border: none;
+	outline: none;
+	border-radius: 20px;
 
 }
 
-#registrar-container{
-left: 450px;
+#lgin-btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
+
+
+/* checkbox de lembrar a senha e concordar com termos */
+
+.chkbox{
+
+    appearance: none;
+    background-color: rgba(56, 8, 8, 0.5);
+	border: 1px solid rgb(131, 19, 19);
+	border-radius: 5px;
+	/* display: flex;
+    flex-wrap:wrap; */
+	position: relative;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    height: 25px;
+    width: 50px;
+    
+   
+}
+.chkbox:hover{
+
+    background-color: rgb(99, 3, 155);
+    transition: 0.3s;
+
+
+}
+
+#lembra:checked:after{
+
+    content: '~[+..••]';
+	font-size: 15px;
+    
+    height: 115px;
+    width: 410px;
+
+	position: absolute;
+	top: 2px;
+	left: 0px;
+	color: rgb(252, 0, 210);
+
+
+}
+#registra:checked:after{
+
+    content: '!R.T.M!';
+	font-size: 14px;
+    
+    height: 25px;
+    width: 25px;
+
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	color: rgb(255, 0, 0);
+
+
+}
+
+span{
+    display: flex;
+    justify-self:center;
+	color: rgb(173, 29, 29);
+	font-size: 15px;
+	
+	
 }
