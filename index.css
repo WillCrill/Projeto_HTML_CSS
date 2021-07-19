@@ -12,13 +12,15 @@ body {
 /* Header */
 .pageheader {
   display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 /* navbar */
 .navbar {
   width: 80%;
   height: 50px;
-  background-color: black;
   border-bottom: solid 5px green;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
@@ -26,13 +28,12 @@ body {
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  right: -73%;
-  /* margin-top: 5px; */
+  right: 0%;
   padding: 20px;
-  z-index: 1;
+  
 }
 
-.navbar:hover {
+/* .navbar:hover {
   animation: navbar_animation 1s ease-out forwards;
 }
 
@@ -43,7 +44,7 @@ body {
   100% {
     right: 0%;
   }
-}
+} */
 
 .navbar a {
   text-decoration: none;
@@ -64,6 +65,9 @@ body {
 /* Logo */
 .logo img {
   width: 110px;
+  border-bottom: solid 5px green;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
  
 }
 
@@ -120,7 +124,6 @@ canvas {
   padding-left: 10px;
 }
 
-<<<<<<< HEAD
 .parallax {
   background-image: url("./banner.png");
   min-height: 600px;
@@ -147,20 +150,6 @@ footer {
   background: black;
 }
 
-.container {
-  font-family: "Fredoka One", cursive;
-  margin: 0;
-}
-
-.container a {
-  color: white;
-  text-decoration: none;
-  margin: 0px 10px;
-  padding: 10px 10px;
-  margin-bottom: 3px;
-  position: relative;
-}
-
 .footer img{
   height: 30px;
 }
@@ -175,7 +164,6 @@ footer {
   color: #555;
   text-align: center;
 }
-=======
 
 .parallax {
     background-image: url("./banner.png");
@@ -188,4 +176,3 @@ footer {
     margin-top: 0;
     z-index: 2;
   }
->>>>>>> 2582c811f461843b27f5c73c8086101ac94d28bb
