@@ -57,5 +57,17 @@
     width: 230px;
     margin-top: -80px;
   }
+
+  .logo h3 {
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    border-top: solid 5px rgb(0, 200, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -89px;
+    margin-left: 9px;
+  }
   
   /* header */
