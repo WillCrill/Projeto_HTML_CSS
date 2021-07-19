@@ -186,7 +186,7 @@
   #stars:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -522,7 +522,7 @@
   #stars3:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -559,6 +559,6 @@
       transform: translateY(0px);
     }
     to {
-      transform: translateY(-2000px);
+      transform: translateY(-1000px);
     }
   }

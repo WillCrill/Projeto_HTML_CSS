@@ -1,70 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./jogo_1.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/favicon.png">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- css links -->
+  <link rel="stylesheet" href="./jogos.css" />
+  <link rel="stylesheet" href="./background.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
+
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="./img/favicon.png" />
+
+  <!-- JS -->
+  <script async src="./main.js"></script>
+
+  <!-- title -->
+  <title>Retro Mania | Home</title>
 </head>
+
 <body>
-    <header>
-        <!-- Header -->
-        <div class="header">
-            <div class="navbar">
-                <a href="#jogos">Jogos</a>
-                <a href="./quem_somos.html">Quem Somos</a>
-                <a href="./equipe.html">Equipe</a>
-                <a href="./contato.html">Contatos</a>
-                <a href="./formulario.html">Login</a>
-            </div>
-            <div class="logo">
-                <a class="logo_img" href="./index.html">
-                    <img src="./IMG_Logo_(provisório).png" alt="Logo Provisório">
-                </a>
-                <h3>Jogo 1</h3>
-            </div>
-        </div>
-    </header>
 
-    <footer class="footer">
+  <!-- header -->
+  <header>
+      <a href="./index.html">
+            <img src="./img/retromania_logo.png" alt="Logo" />
+        </a>
+      <nav>
+        <ul>
+            <li><a href="#jogos">Jogos</a></li>
+            <li><a href="./quem_somos.html">Quem Somos</a></li>
+            <li><a href="./equipe.html">Equipe</a></li>
+            <li><a href="./contato.html">Contatos</a></li>
+            <li><a href="./formulario.html">Login</a></li>
+        </ul>
+      </nav>
+  </header>
 
-        <div class="container">
-    
-                        <div class="icones">
-    
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="./img/icon-facebook-footer.svg" alt="Facebook">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./img/icon-instagram-footer.svg" alt="Instagram">
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank">
-                    <img src="./img/icon-linkedin-footer.svg" alt="Linkedin">
-                </a>
-                <a href="https://github.com/WillCrill/Projeto_HTML_CSS" target="_blank">
-                    <img src="./img/icon-github-footer.svg" alt="GitHub">
-                </a>
-    
+  <!-- main -->
+  <main>
+    <!-- background da página -->
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <!-- <div id="title">Retrô Mania</div>
+    <div id="subtitle">Para cada mania, um jogo!</div> -->
+
+    <!-- banner paralax -->
+    <!-- <canvas id="canvas"></canvas> -->
+    <h1>PAC-MAN</h1>
+    <!-- jogos -->
+    <div class="row" id="jogos">
+      
+      <!-- jogo 1 -->
+      <div class="jogos card">
+        <div class="wrapper">
+          <div class="header">
+            <ul class="menu-content">
+              <li>
+                <a href="#" class="fa fa-bookmark-o"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="data">
+            <div class="content">
+              <span class="author">Namco</span>
+              <h1 class="title"><a href="#">PAC-MAN</a></h1>
             </div>
-    
-            <div class="copyright">
-                <p>
-                    <span> © COPYRIGHT 2021 - RETRÔ MANIA JOGOS LTDA </span>
-                    <br>
-                    <span>TODOS OS DIREITOS RESERVADOS.</span>
-                </p>
-            </div>
-    
-    
+          </div>
         </div>
-    
-    
-    </footer>
-    
+      </div>
+      
+      <!-- text -->
+        <div class="wrappertext">
+          <p class="gametext">PAC-MAN ou, em japonês パックマン, vai te levar à loucura no come-come.</p>
+        </div>
+
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+
+    <div class="container">
+
+            <div class="icones">
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./img/icon-facebook-footer.svg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./img/icon-instagram-footer.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="./img/icon-linkedin-footer.svg" alt="Linkedin">
+            </a>
+            <a href="https://github.com/WillCrill/Projeto_HTML_CSS" target="_blank">
+                <img src="./img/icon-github-footer.svg" alt="GitHub">
+            </a>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                <span> © COPYRIGHT 2021 - RETRÔ MANIA JOGOS LTDA </span>
+                <br>
+                <span>TODOS OS DIREITOS RESERVADOS.</span>
+            </p>
+        </div>
+
+
+    </div>
+
+
+</footer>
 </body>
+
 </html>
