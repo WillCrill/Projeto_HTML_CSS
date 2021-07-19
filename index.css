@@ -20,8 +20,14 @@ body {
 /* navbar */
 .navbar {
   width: 80%;
+<<<<<<< Updated upstream
   height: 50px;
   border-bottom: solid 5px rgb(0, 200, 0);
+=======
+  height: 30px;
+  background-color: black;
+  border-bottom: solid 5px green;
+>>>>>>> Stashed changes
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   display: flex;
@@ -32,19 +38,6 @@ body {
   padding: 20px;
   
 }
-
-/* .navbar:hover {
-  animation: navbar_animation 1s ease-out forwards;
-}
-
-@keyframes navbar_animation {
-  0% {
-    right: -73%;
-  }
-  100% {
-    right: 0%;
-  }
-} */
 
 .navbar a {
   text-decoration: none;
@@ -63,12 +56,17 @@ body {
 }
 
 /* Logo */
+
 .logo img {
   width: 110px;
+<<<<<<< Updated upstream
   border-bottom: solid 5px rgb(0, 200, 0);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
  
+=======
+  margin-left: 50px;
+>>>>>>> Stashed changes
 }
 
 /* header */

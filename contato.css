@@ -687,3 +687,27 @@ body{
     width: 100vw;
     height: 100vh;
   }
+/* Footer */
+footer {
+  font-family: "Fredoka One", cursive;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
+}
+
+.footer img{
+  height: 30px;
+  margin-left: 50px;
+}
+
+.icones {
+  /* display: inline-flex; */
+  padding: 25px;
+}
+
+
+.copyright {
+  color: #555;
+  text-align: center;
+}
