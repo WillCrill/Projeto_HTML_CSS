@@ -5,6 +5,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #title {
+  margin-top: 60px;
   text-align: center;
   font-weight: bold;
 }
