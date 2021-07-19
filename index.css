@@ -17,14 +17,14 @@ body {
 /* navbar */
 .navbar {
   width: 80%;
-  height: 50px;
-  background-color: black;
+  height: 100px;
+  background-color: green;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
   right: -73%;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   padding: 20px;
   z-index: 1;
 }
@@ -44,7 +44,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   padding: 10px;
@@ -52,24 +52,16 @@ body {
 }
 
 .navbar a:hover {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 20px;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 /* Logo */
-.logo {
-  font-family: "Fredoka One", cursive;
-  padding: 7px;
-  border-top: solid 3px black;
-  margin-top: -5px;
-  text-align: center;
-  position: fixed;
-}
 .logo img {
   width: 110px;
-  margin-top: 5px;
+ 
 }
 
 /* header */
