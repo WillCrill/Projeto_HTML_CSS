@@ -17,8 +17,11 @@ body {
 /* navbar */
 .navbar {
   width: 80%;
-  height: 100px;
-  background-color: green;
+  height: 50px;
+  background-color: black;
+  border-bottom: solid 5px green;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -44,7 +47,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Fredoka One", cursive;
   font-size: 20px;
   padding: 10px;
@@ -52,10 +55,10 @@ body {
 }
 
 .navbar a:hover {
-  background-color: black;
+  background-color: green;
   color: white;
-  border-radius: 20px;
   transform: scale(1.5);
+  transition: 0.5s;
 }
 
 /* Logo */
