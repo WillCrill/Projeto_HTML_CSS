@@ -85,6 +85,7 @@
   width: 100%;
   transform: translateY(calc(70px + 1em));
   transition: transform 0.3s;
+  font-family: "Open Sans", sans-serif;
 }
 .card .data .content {
   padding: 1em;
