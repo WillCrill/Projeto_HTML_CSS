@@ -15,6 +15,7 @@ body {
 }
 
 /* navbar */
+
 .navbar {
   width: 80%;
   height: 50px;
@@ -37,6 +38,7 @@ body {
   0% {
     right: -73%;
   }
+
   100% {
     right: 0%;
   }
@@ -45,17 +47,30 @@ body {
 .navbar a {
   text-decoration: none;
   color: white;
-  font-family: "Fredoka One", cursive;
   font-size: 20px;
   padding: 10px;
   margin: 0px 50px;
 }
 
+.navbar a:before {
+  position: absolute;
+  width: 2px;
+  height: 50%;
+  left: 0px;
+  top: -15px;
+  content: "";
+  background: rgb(0 200 0);
+  /* opacity: 0.3; */
+  transition: all 0.3s;
+}
+
 .navbar a:hover {
-  background-color: yellow;
-  color: black;
-  border-radius: 20px;
-  transform: scale(1.2);
+  color: white;
+  transform: scale(1.1);
+}
+
+.navbar a:hover:before {
+  width: 100%;
 }
 
 /* Logo */
