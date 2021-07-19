@@ -56,3 +56,42 @@
 }
 
 /* header */
+
+
+/* Footer */
+footer {
+    font-family: "Fredoka One", cursive;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background: black;
+  }
+  
+  .container {
+    font-family: "Fredoka One", cursive;
+    margin: 0;
+  }
+  
+  .container a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    margin-bottom: 3px;
+    position: relative;
+  }
+  
+  .footer img{
+    height: 30px;
+  }
+  
+  .icones {
+    /* display: inline-flex; */
+    padding: 25px;
+  }
+  
+  
+  .copyright {
+    color: #555;
+    text-align: center;
+  }
