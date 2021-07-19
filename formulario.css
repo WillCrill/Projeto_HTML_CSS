@@ -263,12 +263,12 @@ input[type="password"] {
   color: rgb(255, 0, 0);
 }
 
-span {
+/* span {
   display: flex;
   justify-self: center;
   color: rgb(173, 29, 29);
   font-size: 15px;
-}
+} */
 
 /* Footer */
 footer {
