@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./quem_somos.css">
+    <link rel="stylesheet" href="./header_style.css">
     <link rel="stylesheet" href="./contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,19 +21,21 @@
 
     <!-- menu -->
       <nav class="navbar">
-        <a href="#jogos">Jogos</a>
-        <a href="./quem_somos.html">Quem Somos</a>
-        <a href="./equipe.html">Equipe</a>
-        <a href="./contato.html">Contatos</a>
-        <a href="./formulario.html">Login</a>
+        <ul class="navbar_list">
+          <li><a href="./index.html">Jogos</a></li>
+          <li><a href="./quem_somos.html">Quem Somos</a></li>
+          <li><a href="./equipe.html">Equipe</a></li>
+          <li><a href="./contato.html">Contatos</a></li>
+          <li class="login"><a href="./formulario.html">Login</a></li>
+        </ul>
       </nav>
 
     <!-- logo -->
     <div class="logo">
       <a href="./index.html">
-        <img src="./img/retromania_logo.png" alt="Logo Provisório" />
+        <img src="./img/retromania_logo.png" alt="Logo" />
       </a>
-      <h3></h3>
+      <h3>Quem Somos</h3>
     </div>
   </header>
     <!-- Main -->
@@ -69,18 +72,53 @@
         </section>
         <section>
             <h2>Valores</h2>
-            <ul>
-                <li><span class="span1">Paixão: </span>Colocamos nosso amor a frente de cada obstáculo sendo possível
+            <ul class="valores">
+                <li class="valores"><span class="span1">Paixão: </span>Colocamos nosso amor a frente de cada obstáculo sendo possível
                     transmitir esperança e alegria com naturalidade.</li>
-                <li><span class="span2">Valorização do cliente: </span>A satisfação e sorriso no rosto de cada cliente é
+                <li class="valores"><span class="span2">Valorização do cliente: </span>A satisfação e sorriso no rosto de cada cliente é
                     nossa principal meta.</li>
-                <li><span class="span3">Comprometimento: </span>Trabalhamos com propósito e respeito entre nossos
+                <li class="valores"><span class="span3">Comprometimento: </span>Trabalhamos com propósito e respeito entre nossos
                     parceiros e colaboradores.</li>
-                <li><span class="span4">Diversidade: </span>As portas sempre estarão abertas para qualquer pessoa
+                <li class="valores"><span class="span4">Diversidade: </span>As portas sempre estarão abertas para qualquer pessoa
                     independente de raça, cor, sexo, idade, preferências.</li>
             </ul>
         </section>
     </main>
+
+    <!-- footer -->
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="icones">
+
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="./img/icon-facebook-footer.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="./img/icon-instagram-footer.svg" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="./img/icon-linkedin-footer.svg" alt="Linkedin">
+        </a>
+        <a href="https://github.com/WillCrill/Projeto_HTML_CSS" target="_blank">
+          <img src="./img/icon-github-footer.svg" alt="GitHub">
+        </a>
+
+      </div>
+
+      <div class="copyright">
+        <p>
+          <span> © COPYRIGHT 2021 - RETRÔ MANIA JOGOS LTDA </span>
+          <br>
+          <span>TODOS OS DIREITOS RESERVADOS.</span>
+        </p>
+      </div>
+
+    </div>
+
+  </footer>
+  
 </body>
 
 </html>
