@@ -1,302 +1,295 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./img/banner.png);
-    background-size: cover;
-    font-family: 'Fredoka One', cursive;
-    
-
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/banner.png);
+  background-size: cover;
+  font-family: "Fredoka One", cursive;
 }
-
-
-
 
 /* Header */
 .header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* navbar */
 .navbar {
-    width: 80%;
-    height: 50px;
-    background-image:linear-gradient(45deg, rgb(105, 20, 20),rgb(31, 14, 14)); 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    right: -73%;
-    margin-top: 5px;
-    padding: 35px;
-    border-radius: 10px;
+  width: 80%;
+  height: 50px;
+  background-image: linear-gradient(45deg, rgb(105, 20, 20), rgb(31, 14, 14));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: -73%;
+  margin-top: 5px;
+  padding: 35px;
+  border-radius: 10px;
 }
 
 .navbar:hover {
-    animation: navbar_animation 1s ease-out forwards;
-    
+  animation: navbar_animation 1s ease-out forwards;
 }
 
-@keyframes navbar_animation{
-    0% {right: -73%;}
-    100% {right: 0%;}
+@keyframes navbar_animation {
+  0% {
+    right: -73%;
+  }
+  100% {
+    right: 0%;
+  }
 }
 .navbar a {
-    text-decoration: none;
-    color: rgb(179, 15, 143);
-    font-family: 'Fredoka One', cursive;;
-    font-size: 20px;
-    padding: 10px;
-    margin: 0px 50px;
+  text-decoration: none;
+  color: rgb(179, 15, 143);
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px 50px;
 }
 
 .navbar a:hover {
-    background-color: rgba(209, 149, 37, 0.1);
-    color: rgb(231, 210, 210);
-    border-radius: 20px;
-    transform: scale(1.2);
-    
+  background-color: rgba(209, 149, 37, 0.1);
+  color: rgb(231, 210, 210);
+  border-radius: 20px;
+  transform: scale(1.2);
 }
 
 /* Logo */
 .logo h3 {
-    font-family: 'Fredoka One', cursive;
-    padding: 7px;
-    border-top: solid 3px rgba(82, 20, 20,0.80);
-    margin-top: -5px;
-    text-align: center;
-    color: rgb(138, 116, 158);
+  font-family: "Fredoka One", cursive;
+  padding: 7px;
+  border-top: solid 3px rgba(82, 20, 20, 0.8);
+  margin-top: -5px;
+  text-align: center;
+  color: rgb(138, 116, 158);
 }
 .logo_img img {
-    width: 110px;
-    margin-top: 5px;
+  width: 110px;
+  margin-top: 5px;
 }
 
 /* header */
 
 /* container do form */
 
-fieldset{
-    border: none; 
+fieldset {
+  border: none;
 }
-
 
 /* container geral */
-.container{
-
-    
-
-    width:380px;
-    height: 480px;
-    position: relative;
-    margin: 5% auto;
-    background: rgba(216, 216, 216, 0.6);
-    padding: 5px;
-    border-radius: 20px;
-    overflow: hidden;
-
+.container {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 5% auto;
+  background: rgba(216, 216, 216, 0.6);
+  padding: 5px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-#login-container{
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: 0,5s;
-    margin-top: -45px;
-    left: 50px;
-
+#login-container {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0, 5s;
+  margin-top: -45px;
+  left: 50px;
 }
 
-#registrar-container{
-   
-
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    transition: 0,5s;
-    margin-top: -90px;
-    left: 400px;
-
+#registrar-container {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0, 5s;
+  margin-top: -90px;
+  left: 400px;
 }
-
-
 
 /* botao login/inscrever */
 
-.btnbox{
-
-    
-    width: 200px;
-    height: 35px;
-    margin: 30px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px rgba(172, 9, 109, 0.9);
-    border-radius: 20px;
-
-
+.btnbox {
+  width: 200px;
+  height: 35px;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px rgba(172, 9, 109, 0.9);
+  border-radius: 20px;
 }
 
-.alt{
-    margin-left: 30px;
-    padding: 10px;
-	cursor: pointer;
-	background: transparent;
-    border:none;
-	outline: none;
-	position: relative;
+.alt {
+  margin-left: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative;
 }
 
-#btn-bg{
-
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(45deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
-    border-radius: 20px;
-    transition: 0.5s;
-   
-    
-
+#btn-bg {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgba(177, 17, 70, 0.9),
+    rgba(94, 4, 179, 0.9)
+  );
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
-  
 /*estilo input  */
 
-input[type=text],
-input[type=email],
-input[type=password]{
-
-    width: 100%;
-	padding: 10px 0;
-	margin: 11px 0;
-	border: none;
-	border-bottom: 1px solid rgb(122, 2, 2);
-    border-radius: 10px;
-	outline: none;
-	background: transparent;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 0;
+  margin: 11px 0;
+  border: none;
+  border-bottom: 1px solid rgb(122, 2, 2);
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
 }
 
 /* hover campos input */
 
-.hvr:hover{
-    background-color: rgba(172, 21, 21, 0.4);
-    transition: 0.3s;
+.hvr:hover {
+  background-color: rgba(172, 21, 21, 0.4);
+  transition: 0.3s;
 }
 
 /* estilo placeholder input forms */
-::placeholder{
-    color: rgba(151, 24, 56, 0.9);
+::placeholder {
+  color: rgba(151, 24, 56, 0.9);
 }
-
 
 /* estilo botoes */
 
-.btn-submit{
-    width: 85%;
-	padding: 10px 30px;
-	cursor: pointer;
-	display: block;
-	margin: 10px;
-	background: linear-gradient(135deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
-	border: 0;
-	outline: none;
-	border-radius: 30px;
+.btn-submit {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(177, 17, 70, 0.9),
+    rgba(94, 4, 179, 0.9)
+  );
+  border: 0;
+  outline: none;
+  border-radius: 30px;
 }
 
-.btn-reset{
-
-    width: 85%;
-	padding: 10px 30px;
-	cursor: pointer;
-	display: block;
-	margin: 10px;;
-	background: linear-gradient(90deg, rgba(177, 17, 70, 0.9),rgba(94, 4, 179, 0.9));
-	border: none;
-	outline: none;
-	border-radius: 20px;
-
+.btn-reset {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(177, 17, 70, 0.9),
+    rgba(94, 4, 179, 0.9)
+  );
+  border: none;
+  outline: none;
+  border-radius: 20px;
 }
 
-#lgin-btn{
-    margin-top: 15px;
-    margin-bottom: 20px;
+#lgin-btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
-
-
 
 /* checkbox de lembrar a senha e concordar com termos */
 
-.chkbox{
-
-    appearance: none;
-    background-color: rgba(56, 8, 8, 0.5);
-	border: 1px solid rgb(131, 19, 19);
-	border-radius: 5px;
-	/* display: flex;
+.chkbox {
+  appearance: none;
+  background-color: rgba(56, 8, 8, 0.5);
+  border: 1px solid rgb(131, 19, 19);
+  border-radius: 5px;
+  /* display: flex;
     flex-wrap:wrap; */
-	position: relative;
-    
-    margin-top: 5px;
-    margin-right: 5px;
-    
-    height: 25px;
-    width: 50px;
-    
-   
+  position: relative;
+
+  margin-top: 5px;
+  margin-right: 5px;
+
+  height: 25px;
+  width: 50px;
 }
-.chkbox:hover{
-
-    background-color: rgb(99, 3, 155);
-    transition: 0.3s;
-
-
+.chkbox:hover {
+  background-color: rgb(99, 3, 155);
+  transition: 0.3s;
 }
 
-#lembra:checked:after{
+#lembra:checked:after {
+  content: "~[+..••]";
+  font-size: 15px;
 
-    content: '~[+..••]';
-	font-size: 15px;
-    
-    height: 115px;
-    width: 410px;
+  height: 115px;
+  width: 410px;
 
-	position: absolute;
-	top: 2px;
-	left: 0px;
-	color: rgb(252, 0, 210);
-
-
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  color: rgb(252, 0, 210);
 }
-#registra:checked:after{
+#registra:checked:after {
+  content: "!R.T.M!";
+  font-size: 14px;
 
-    content: '!R.T.M!';
-	font-size: 14px;
-    
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	color: rgb(255, 0, 0);
-
-
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: rgb(255, 0, 0);
 }
 
-span{
-    display: flex;
-    justify-self:center;
-	color: rgb(173, 29, 29);
-	font-size: 15px;
-	
-	
+span {
+  display: flex;
+  justify-self: center;
+  color: rgb(173, 29, 29);
+  font-size: 15px;
+}
+
+/* Footer */
+footer {
+  font-family: "Fredoka One", cursive;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
+}
+
+.footer img {
+  height: 30px;
+  margin-left: 50px;
+}
+
+.icones {
+  /* display: inline-flex; */
+  padding: 25px;
+}
+
+.copyright {
+  color: #555;
+  text-align: center;
 }
