@@ -1,169 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./formulario.css">
-    <link rel="stylesheet" href="./header_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.png">
-    <title>Retro Mania | Login/Cadastro</title>
+    
+    <title>Retro Mania | Contato</title>
 </head>
-
 <body>
-    <!-- header -->
-  <header class="pageheader">
-
-    <!-- menu -->
-      <nav class="navbar">
-        <ul class="navbar_list">
-          <li><a href="#jogos">Jogos</a></li>
-          <li><a href="./quem_somos.html">Quem Somos</a></li>
-          <li><a href="./equipe.html">Equipe</a></li>
-          <li><a href="./contato.html">Contatos</a></li>
-          <li class="login"><a href="./formulario.html">Login</a></li>
-        </ul>
-      </nav>
-
-    <!-- logo -->
-    <div class="logo">
-      <a href="./index.html">
-        <img src="./img/retromania_logo.png" alt="Logo" />
-      </a>
-      <h3>Formúlario</h3>
-    </div>
-  </header>
-    <main>
-        <div class="container">
-
-            <!--  <div>
-
-            </div> avatar foto teste-->
-
-            <!-- container botoes -->
-            <div class="btnbox">
-                <!-- div para o fundo de transiçao btn-bg -->
-                <div id="btn-bg">
-                    <!-- sem nada mesmo -->
-                </div>
-
-
-                <button type="button" class="alt" id="login"  onclick="login()" >login</button>
-
-                <button type="button" class="alt" id="signup" onclick="register()" >inscrever</button>
+    <header>
+        <!-- Header -->
+        <div class="header">
+            <div class="navbar">
+                <a href="./index.html">Jogos</a>
+                <a href="./quem_somos.html">Quem Somos</a>
+                <a href="./equipe.html">Equipe</a>
+                <a href="./contato.html">Contatos</a>
+                <a href="./formulario.html">Login</a>
             </div>
+            <div class="logo">
+                <a class="logo_img" href="./index.html">
+                    <img src="./IMG_Logo_(provisório).png" alt="Logo Provisório">
+                </a>
+                <h3>Login/contato</h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <div id='title'>Retrô Mania</div>
+            <div id="subtitle">Para cada mania, um jogo!</div>
+            
+            <!-- banner paralax -->
+            <div class="parallax"></div>
 
-            <!-- fieldset container -->
-            <fieldset id="fset-container">
+            <div class="container">
 
-                <form id="login-container">
-
-                    <div>
-                        <label for="lgin">Login :</label>
-                        <input class="hvr" type="email" name="lgin" id="lgin" placeholder="  Email@gmail.com" />
+                <!--  <div>
+    
+                </div> avatar foto teste-->
+    
+                <!-- container botoes -->
+                <div class="btnbox">
+                    <!-- div para o fundo de transiçao btn-bg -->
+                    <div id="btn-bg">
+                        <!-- sem nada mesmo -->
                     </div>
-
-                    <div>
-                        <label for="pswd">Senha :</label>
-
-                        <input class="hvr" type="password" name="pswd" id="pswd" placeholder="  ********" />
-                        <input type="checkbox" name="remember" id="lembra" class="chkbox"><span>Lembrar senha</span>
-                        <button type="submit" class="btn-submit" id="lgin-btn">Login</button>
-                        <button type="reset" class="btn-reset" id="logClr-btn">Limpar</button>
-                    </div>
-
-                </form>
-
-                <form id="registrar-container">
-
-                    <div>
-                        <label for="nome">Seu nome :</label>
-                        <input class="hvr" type="text" name="nome" id="nome" placeholder="  Seu nome aqui" />
-                    </div>
-
-                    <div>
-                        <label for="lgin">Login :</label>
-                        <input class="hvr" type="email" name="lgin" id="lgin" placeholder="  Email@gmail.com" />
-                    </div>
-
-                    <div>
-                        <label for="pswd">Senha :</label>
-
-                        <input class="hvr" type="password" name="pswd" id="pswd" placeholder="  ********" />
-                        <input type="checkbox" name="remember" id="registra" class="chkbox"><span>Concordo com os termos
-                            de serviço</span>
-                        <button type="submit" class="btn-submit" id="reg-btn">Registrar</button>
-                        <button type="reset" class="btn-reset" id="regClr-btn">Limpar</button>
-                    </div>
-
-                </form>
-            </fieldset>
-
-
-
-
+    
+    
+                    <button type="button" class="alt" id="login"  onclick="login()" >login</button>
+    
+                    <button type="button" class="alt" id="signup" onclick="register()" >inscrever</button>
+                </div>
+    
+                <!-- fieldset container -->
+                <fieldset id="fset-container">
+    
+                    <form id="login-container">
+    
+                        <div>
+                            <label for="lgin">Login :</label>
+                            <input class="hvr" type="email" name="lgin" id="lgin" placeholder="  Email@gmail.com" />
+                        </div>
+    
+                        <div>
+                            <label for="pswd">Senha :</label>
+    
+                            <input class="hvr" type="password" name="pswd" id="pswd" placeholder="  ********" />
+                            <input type="checkbox" name="remember" id="lembra" class="chkbox"><span>Lembrar senha</span>
+                            <button type="submit" class="btn-submit" id="lgin-btn">Login</button>
+                            <button type="reset" class="btn-reset" id="logClr-btn">Limpar</button>
+                        </div>
+    
+                    </form>
+    
+                    <form id="registrar-container">
+    
+                        <div>
+                            <label for="nome">Seu nome :</label>
+                            <input class="hvr" type="text" name="nome" id="nome" placeholder="  Seu nome aqui" />
+                        </div>
+    
+                        <div>
+                            <label for="lgin">Login :</label>
+                            <input class="hvr" type="email" name="lgin" id="lgin" placeholder="  Email@gmail.com" />
+                        </div>
+    
+                        <div>
+                            <label for="pswd">Senha :</label>
+    
+                            <input class="hvr" type="password" name="pswd" id="pswd" placeholder="  ********" />
+                            <input type="checkbox" name="remember" id="registra" class="chkbox"><span>Concordo com os termos
+                                de serviço</span>
+                            <button type="submit" class="btn-submit" id="reg-btn">Registrar</button>
+                            <button type="reset" class="btn-reset" id="regClr-btn">Limpar</button>
+                        </div>
+    
+                    </form>
+                </fieldset>
+    
+    
+    
+    
+            </div>
+            
+            
+        </main>
+        
+        <footer class="footer">
+        
+        <div class="">
+        
+                      <div class="icones">
+        
+              <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./img/icon-facebook-footer.svg" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                  <img src="./img/icon-instagram-footer.svg" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank">
+                  <img src="./img/icon-linkedin-footer.svg" alt="Linkedin">
+              </a>
+              <a href="https://github.com/WillCrill/Projeto_HTML_CSS" target="_blank">
+                  <img src="./img/icon-github-footer.svg" alt="GitHub">
+              </a>
+        
+          </div>
+        
+          <div class="copyright">
+              <p>
+                  <span> © COPYRIGHT 2021 - RETRÔ MANIA JOGOS LTDA </span>
+                  <br>
+                  <span>TODOS OS DIREITOS RESERVADOS.</span>
+              </p>
+          </div>
+        
+        
         </div>
         
-        <!-- transiçao de login para registrar -->
-        <script>
-
-            var x = document.getElementById("login-container")
-            var y = document.getElementById("registrar-container")
-            var z = document.getElementById("btn-bg")
-
-            function register(){
-                x.style.left = "-400px"
-                y.style.left = "50px"
-                z.style.left = "50%"
-                
-            }
-            function login(){
-                x.style.left = "50px"
-                y.style.left = "450px"
-                z.style.left = "0px"
-                
-            }
-
-        </script>
-
-    </main>
-
-    <!-- footer -->
-  <footer class="footer">
-
-
-      <div class="icones">
-
-        <a href="https://www.facebook.com/" target="_blank">
-          <img src="./img/icon-facebook-footer.svg" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="./img/icon-instagram-footer.svg" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <img src="./img/icon-linkedin-footer.svg" alt="Linkedin">
-        </a>
-        <a href="https://github.com/WillCrill/Projeto_HTML_CSS" target="_blank">
-          <img src="./img/icon-github-footer.svg" alt="GitHub">
-        </a>
-
-      </div>
-
-      <div class="copyright">
-        <p>
-          <span> © COPYRIGHT 2021 - RETRÔ MANIA JOGOS LTDA </span>
-          <br>
-          <span>TODOS OS DIREITOS RESERVADOS.</span>
-        </p>
-      </div>
-
-
-  </footer>
-
+        
+        </footer>
 </body>
-
+            <!-- transiçao de login para registrar -->
+            <script>
+    
+                var x = document.getElementById("login-container")
+                var y = document.getElementById("registrar-container")
+                var z = document.getElementById("btn-bg")
+    
+                function register(){
+                    x.style.left = "-400px"
+                    y.style.left = "50px"
+                    z.style.left = "50%"
+                    
+                }
+                function login(){
+                    x.style.left = "50px"
+                    y.style.left = "450px"
+                    z.style.left = "0px"
+                    
+                }
+    
+            </script>
 </html>
