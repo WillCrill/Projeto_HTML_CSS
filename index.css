@@ -1,6 +1,10 @@
+html {
+  height: 100%;
+  background-color: black;
+}
+
 html,
 body {
-  background-color: black;
   padding: 0;
   margin: 0;
 }
@@ -11,17 +15,16 @@ body {
 }
 
 /* navbar */
-
 .navbar {
   width: 80%;
-  height: 50px;
-  background-color: black;
+  height: 100px;
+  background-color: green;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
   right: -73%;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   padding: 20px;
   z-index: 1;
 }
@@ -34,7 +37,6 @@ body {
   0% {
     right: -73%;
   }
-
   100% {
     right: 0%;
   }
@@ -42,45 +44,24 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-family: "Fredoka One", cursive;
   font-size: 20px;
   padding: 10px;
   margin: 0px 50px;
 }
 
-.navbar a:before {
-  position: absolute;
-  width: 2px;
-  height: 50%;
-  left: 0px;
-  top: -15px;
-  content: "";
-  background: rgb(0 200 0);
-  /* opacity: 0.3; */
-  transition: all 0.3s;
-}
-
 .navbar a:hover {
+  background-color: black;
   color: white;
-  transform: scale(1.1);
-}
-
-.navbar a:hover:before {
-  width: 100%;
+  border-radius: 20px;
+  transform: scale(1.5);
 }
 
 /* Logo */
-.logo {
-  font-family: "Fredoka One", cursive;
-  padding: 7px;
-  border-top: solid 3px black;
-  margin-top: -5px;
-  text-align: center;
-  position: fixed;
-}
 .logo img {
   width: 110px;
-  margin-top: 5px;
+ 
 }
 
 /* header */
@@ -650,6 +631,7 @@ body {
   }
 }
 
+
 /* banner parallax */
 canvas {
   background: #000;
@@ -658,6 +640,7 @@ canvas {
   width: 100vw;
   height: 100vh;
 }
+
 
 #title {
   position: absolute;
@@ -697,6 +680,7 @@ canvas {
   padding-left: 10px;
 }
 
+<<<<<<< HEAD
 .parallax {
   background-image: url("./banner.png");
   min-height: 600px;
@@ -751,3 +735,17 @@ footer {
   color: #555;
   text-align: center;
 }
+=======
+
+.parallax {
+    background-image: url("./banner.png");
+    min-height: 600px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    z-index: 2;
+  }
+>>>>>>> 2582c811f461843b27f5c73c8086101ac94d28bb
