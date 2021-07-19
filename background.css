@@ -1,83 +1,6 @@
-html {
-  scroll-behavior: smooth; /* especifica o comportamento de rolagem */
-}
+/* background */
 
-body{
-    font-family: 'Fredoka One';
-    font-style: normal;
-    font-display: swap;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-/* Header */
-.header {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-/* navbar */
-.navbar {
-    width: 80%;
-    height: 50px;
-    background-color: black; 
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    right: -73%;
-    margin-top: 5px;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 50px;
-}
-
-.navbar:hover {
-    animation: navbar_animation 2s ease-out forwards;
-    /*Seria uma boa colocar a transição do navbar na hora que ele some tbm, ele está sumindo muito bruscamente*/
-}
-
-@keyframes navbar_animation{
-    0% {right: -73%;}
-    100% {right: 0%;}
-}
-.navbar a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Fredoka One', cursive;;
-    font-size: 20px;
-    padding: 10px;
-    margin: 0px 50px;
-}
-
-.navbar a:hover {
-    background-color: yellow;
-    color: black;
-    border-radius: 20px;
-    transform: scale(1.2);
-}
-
-/* Logo */
-.logo h3 {
-    font-family: 'Fredoka One', cursive;
-    padding: 7px;
-    border-top: solid 3px black;
-    margin-top: -5px;
-}
-.logo_img img {
-    box-sizing: border-box;
-    width: 200px;
-    margin-top: 5px;
-}
-
-
-  
-  /* header */
-  
-  /* background */
-  
-  #stars {
+#stars {
     width: 1px;
     height: 1px;
     background: transparent;
@@ -445,6 +368,7 @@ body{
       1013px 435px #fff, 536px 541px #fff, 562px 311px #fff, 286px 1706px #fff,
       1690px 672px #fff;
   }
+  
   #stars2 {
     width: 2px;
     height: 2px;
@@ -561,6 +485,7 @@ body{
       210px 1878px #fff, 877px 1183px #fff, 1266px 1828px #fff, 942px 114px #fff,
       1059px 763px #fff, 872px 1075px #fff;
   }
+  
   #stars3 {
     width: 3px;
     height: 3px;
@@ -592,7 +517,8 @@ body{
       1260px 1929px #fff, 764px 39px #fff, 40px 1389px #fff, 77px 1701px #fff,
       1080px 199px #fff;
     animation: animStar 150s linear infinite;
-  } 
+  }
+  
   #stars3:after {
     content: " ";
     position: absolute;
@@ -635,61 +561,4 @@ body{
     to {
       transform: translateY(-2000px);
     }
-  }
-  
-  
-  /* banner parallax */
-  canvas {
-    background: #000;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  /* conteúdo */
-  p.texto{
-    font-family: "Open Sans", sans-serif;
-    margin-top: 20px;
-    padding: 0 150px;
-    text-align: justify;
-  }
-  
-  h2{
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: 3px;
-    margin-top: 50px;
-    color: green;
-  }
-
-  h2:hover {
-    color: yellow;
-    transform: rotate(-360deg); 
-    transition: all 0.2s ease-in-out; 
-  }
-
-  li{
-    font-family: "Open Sans", sans-serif;
-    text-align: justify;
-    margin-left: 126px;
-    margin-top: 20px;
-  }
-  
-  .span1{
-    color: red;
-  }
-
-  .span2{
-    color: blue;
-  }
-
-  .span3{
-    color: violet;
-  }
-
-  .span4{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
   }

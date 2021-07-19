@@ -60,23 +60,37 @@
 /* main */
 body{
     font-weight:normal;
-    font-family: 'Fredoka One', cursive;
+    font-family: "Open Sans", sans-serif;
     background-color: #000000;
     color:white;
 }
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 40px;
+}
+
+.card-box{
+    width: 300px;
+    text-align: justify;
+    border: 2px dotted gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .picture{
     object-fit: cover;
-    width: 15%;
-    height: 130px;
+    width: 50%;
+    height: 150px;
+    border-radius: 5px;
 }
-.box{
-    display: flex;
-}
+
 h2{
     font-weight: normal;
-    margin-left: 5px;
-    width: 100px;
 }
+
 /* responsivo */
 @media (max-width: 400px) {
     .picture{
