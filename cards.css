@@ -92,6 +92,7 @@
   padding: 1em;
   position: relative;
   z-index: 1;
+  font-family: "Open Sans", sans-serif;
 }
 .card .author {
   font-size: 12px;
@@ -103,6 +104,11 @@
   height: 70px;
   margin: 0;
 }
+
+.author {
+  font-family: "Open Sans", sans-serif;
+}
+
 
 .jogos .wrapper {
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Pong.svg/800px-Pong.svg.png) center/cover no-repeat;
