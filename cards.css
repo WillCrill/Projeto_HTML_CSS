@@ -1,11 +1,11 @@
 /* body {
-  /* background-image: linear-gradient(to right, #333333, #702828);
+  background-image: linear-gradient(to right, #333333, #702828);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   background-color: black;
   font-family: "Open Sans", sans-serif;
-} */
+} */ 
 
 /* to export */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
@@ -25,7 +25,8 @@
 .card {
   float: center;
   padding: 2rem 1.7rem;
-  width: 30%;
+  max-width: 30%;
+  min-width: 300px;
 }
 
 .card h1 {
