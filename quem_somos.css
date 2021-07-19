@@ -1,125 +1,125 @@
 html {
-  scroll-behavior: smooth; /* especifica o comportamento de rolagem */
-}
+    scroll-behavior: smooth; /* especifica o comportamento de rolagem */
+  }
+  
+  body{
+      font-family: 'Fredoka One';
+      font-style: normal;
+      font-display: swap;
+      color: white;
+      background-color: black;
+      text-align: center;
+  }
 
-body{
-    font-family: 'Fredoka One';
-    font-style: normal;
-    font-display: swap;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-/* Header */
-.header {
+  
+  /* Header */
+.pageheader {
     display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-/* navbar */
-.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+  
+  /* navbar */
+  .navbar {
     width: 80%;
+    <<<<<<< Updated upstream
     height: 50px;
-    background-color: black; 
+    border-bottom: solid 5px rgb(0, 200, 0);
+  =======
+    height: 30px;
+    background-color: black;
+    border-bottom: solid 5px green;
+  >>>>>>> Stashed changes
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    right: -73%;
-    margin-top: 5px;
+    right: 0%;
     padding: 20px;
-    border: 1px solid white;
-    border-radius: 50px;
-}
-
-.navbar:hover {
-    animation: navbar_animation 2s ease-out forwards;
-    /*Seria uma boa colocar a transição do navbar na hora que ele some tbm, ele está sumindo muito bruscamente*/
-}
-
-@keyframes navbar_animation{
-    0% {right: -73%;}
-    100% {right: 0%;}
-}
-.navbar a {
+    
+  }
+  
+  .navbar a {
     text-decoration: none;
     color: white;
-    font-family: 'Fredoka One', cursive;;
+    font-family: "Fredoka One", cursive;
     font-size: 20px;
     padding: 10px;
     margin: 0px 50px;
-}
-
-.navbar a:hover {
-    background-color: yellow;
-    color: black;
-    border-radius: 20px;
-    transform: scale(1.2);
-}
-
-/* Logo */
-.logo h3 {
-    font-family: 'Fredoka One', cursive;
-    padding: 7px;
-    border-top: solid 3px black;
-    margin-top: -5px;
-}
-.logo_img img {
-    box-sizing: border-box;
-    width: 200px;
-    margin-top: 5px;
-}
-
-
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(0, 200, 0);
+    color: white;
+    transform: scale(1.5);
+    transition: 0.5s;
+  }
+  
+  /* Logo */
+  
+  .logo img {
+    width: 110px;
+  <<<<<<< Updated upstream
+    border-bottom: solid 5px rgb(0, 200, 0);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+  =======
+    margin-left: 50px;
+  >>>>>>> Stashed changes
+  }
   
   /* header */
-
+    /* header */
   
-   
-  /* conteúdo */
-  p.texto{
-    font-family: "Open Sans", sans-serif;
-    margin-top: 20px;
-    padding: 0 150px;
-    text-align: justify;
-  }
+    
+     
+    /* conteúdo */
+    p.texto{
+      font-family: "Open Sans", sans-serif;
+      margin-top: 20px;
+      padding: 0 150px;
+      text-align: justify;
+    }
+    
+    h2{
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 3px;
+      margin-top: 50px;
+      color: green;
+    }
   
-  h2{
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: 3px;
-    margin-top: 50px;
-    color: green;
-  }
-
-  h2:hover {
-    color: yellow;
-    transform: rotate(-360deg); 
-    transition: all 0.2s ease-in-out; 
-  }
-
-  li{
-    font-family: "Open Sans", sans-serif;
-    text-align: justify;
-    margin-left: 126px;
-    margin-top: 20px;
-  }
+    h2:hover {
+      color: yellow;
+      transform: rotate(-360deg); 
+      transition: all 0.2s ease-in-out; 
+    }
   
-  .span1{
-    color: red;
-  }
-
-  .span2{
-    color: blue;
-  }
-
-  .span3{
-    color: violet;
-  }
-
-  .span4{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    li{
+      font-family: "Open Sans", sans-serif;
+      text-align: justify;
+      margin-left: 126px;
+      margin-top: 20px;
+    }
+    
+    .span1{
+      color: red;
+    }
+  
+    .span2{
+      color: blue;
+    }
+  
+    .span3{
+      color: violet;
+    }
+  
+    .span4{
+      background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
