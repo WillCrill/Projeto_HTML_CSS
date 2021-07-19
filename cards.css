@@ -1,18 +1,18 @@
-body {
+/* body {
   /* background-image: linear-gradient(to right, #333333, #702828);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   height: 100vh;
   background-color: black;
   font-family: "Open Sans", sans-serif;
-}
+} */
 
 /* to export */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .row {
   max-width: 100%;
