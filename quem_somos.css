@@ -34,15 +34,17 @@ h2:hover {
   transition: all 0.2s ease-in-out;
 }
 
-li {
+.valores li {
   font-family: "Open Sans", sans-serif;
+  list-style: none;
   text-align: justify;
-  margin-left: 126px;
+  margin-left: 110px;
   margin-top: 20px;
 }
 
 .span1 {
   color: red;
+
 }
 
 .span2 {
