@@ -11,61 +11,7 @@ body {
   text-align: center;
 }
 
-/* Header */
-.pageheader {
-  display: flex;
-  position: sticky;
-  top: 0px;
-  z-index: 10;
-}
 
-/* navbar */
-.navbar {
-  width: 80%;
-  height: 50px;
-  border-bottom: solid 5px rgb(0, 200, 0);
-  height: 30px;
-  background-color: black;
-  border-bottom: solid 5px green;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: fixed;
-  right: 0%;
-  padding: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-family: "Fredoka One", cursive;
-  font-size: 20px;
-  padding: 10px;
-  margin: 0px 50px;
-}
-
-.navbar a:hover {
-  background-color: rgb(0, 200, 0);
-  color: white;
-  transform: scale(1.5);
-  transition: 0.5s;
-}
-
-/* Logo */
-
-.logo img {
-  width: 110px;
-  border-bottom: solid 5px rgb(0, 200, 0);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-
-  margin-left: 50px;
-}
-
-/* header */
-/* header */
 
 /* conteúdo */
 p.texto {

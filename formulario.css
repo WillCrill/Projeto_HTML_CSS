@@ -13,70 +13,7 @@ body {
   font-family: "Fredoka One", cursive;
 }
 
-/* Header */
-.header {
-  display: flex;
-  align-items: center;
-}
 
-/* navbar */
-.navbar {
-  width: 80%;
-  height: 50px;
-  background-image: linear-gradient(45deg, rgb(105, 20, 20), rgb(31, 14, 14));
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: fixed;
-  right: -73%;
-  margin-top: 5px;
-  padding: 35px;
-  border-radius: 10px;
-}
-
-.navbar:hover {
-  animation: navbar_animation 1s ease-out forwards;
-}
-
-@keyframes navbar_animation {
-  0% {
-    right: -73%;
-  }
-  100% {
-    right: 0%;
-  }
-}
-.navbar a {
-  text-decoration: none;
-  color: rgb(179, 15, 143);
-  font-family: "Fredoka One", cursive;
-  font-size: 20px;
-  padding: 10px;
-  margin: 0px 50px;
-}
-
-.navbar a:hover {
-  background-color: rgba(209, 149, 37, 0.1);
-  color: rgb(231, 210, 210);
-  border-radius: 20px;
-  transform: scale(1.2);
-}
-
-/* Logo */
-.logo h3 {
-  font-family: "Fredoka One", cursive;
-  padding: 7px;
-  border-top: solid 3px rgba(82, 20, 20, 0.8);
-  margin-top: -5px;
-  text-align: center;
-  color: rgb(138, 116, 158);
-}
-.logo_img img {
-  width: 110px;
-  margin-top: 5px;
-}
-
-/* header */
 
 /* container do form */
 
