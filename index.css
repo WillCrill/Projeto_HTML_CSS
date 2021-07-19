@@ -683,6 +683,62 @@ canvas {
   padding-left: 10px;
 }
 
+<<<<<<< HEAD
+.parallax {
+  background-image: url("./banner.png");
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  z-index: 2;
+}
+
+/* main */
+main {
+  background: #1d1d1d;
+}
+
+/* Footer */
+footer {
+  font-family: "Fredoka One", cursive;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
+}
+
+.container {
+  font-family: "Fredoka One", cursive;
+  margin: 0;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  margin-bottom: 3px;
+  position: relative;
+}
+
+.footer img{
+  height: 30px;
+}
+
+.icones {
+  /* display: inline-flex; */
+  padding: 25px;
+}
+
+
+.copyright {
+  color: #555;
+  text-align: center;
+}
+=======
 
 .parallax {
     background-image: url("./banner.png");
@@ -695,3 +751,4 @@ canvas {
     margin-top: 0;
     z-index: 2;
   }
+>>>>>>> 2582c811f461843b27f5c73c8086101ac94d28bb
