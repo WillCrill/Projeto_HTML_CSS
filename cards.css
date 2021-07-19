@@ -110,11 +110,45 @@
 }
 
 
-.jogos .wrapper {
+/* .jogos .wrapper {
   background: url(https://i1.wp.com/www.totalgeeklive.com/wp-content/uploads/ms-pacman-board-gameplay.jpg) center/cover no-repeat;
   background-blend-mode: multiply;
-  
+} */
+
+.image1 {
+  background: url(https://www.arcade-history.com/images/game/26905_1.png) center/cover no-repeat;
+  background-blend-mode: normal;
 }
+
+.image2 {
+  background: url(https://i1.wp.com/www.totalgeeklive.com/wp-content/uploads/ms-pacman-board-gameplay.jpg) center/cover no-repeat;
+  background-blend-mode: normal;
+}
+
+.image3 {
+  background: url(https://th.bing.com/th/id/OIP.eyjxRhiNEz_zxe6nlxIT5AHaFj?pid=ImgDet&rs=1) center/cover no-repeat;
+  background-blend-mode: normal;
+}
+
+.image4 {
+  background: url(https://i.pinimg.com/originals/af/aa/c7/afaac79772e7e624d1a3baec29900e0d.jpg) center/cover no-repeat;
+  background-blend-mode: normal;
+}
+
+.image5 {
+  background: url(https://www.nme.com/wp-content/uploads/2020/09/Super-Mario-Bros.jpg) center/cover no-repeat;
+  background-blend-mode: normal;
+}
+
+.image6 {
+  background: url(https://th.bing.com/th/id/OIP.vCL_dkFlayOjI-WI0RxRUgHaEK?pid=ImgDet&rs=1) center/cover no-repeat;
+  background-blend-mode: normal;
+}
+
+
+
+
+
 .jogos .wrapper:hover .menu-content span {
   transform: translate(-50%, -10px);
   opacity: 1;
