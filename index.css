@@ -737,8 +737,8 @@ footer {
   position: relative;
 }
 
-.menu-footer a {
-  display: inline-flex;
+.footer img{
+  height: 30px;
 }
 
 .icones {
@@ -746,11 +746,8 @@ footer {
   padding: 25px;
 }
 
-.color {
-  background: rgb(0 200 0);
-}
 
 .copyright {
   color: #555;
-  text-align: right;
+  text-align: center;
 }
